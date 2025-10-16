@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI English Poem Generator</title>
   </head>
@@ -13,7 +14,7 @@
       </header>
 
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter the topic of the English poem"
@@ -24,23 +25,18 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">
-          All beautiful living things must
-          <br />eventually die and return to the earth
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
 
       <footer>
         This AI project was coded by
-        <a href="https://github.com/Kristyidu" target="_blank"
-          >Christiana Itodo</a
-        >
+        <a href="https://github.com/Kristyidu" target="_blank">Matt Delac</a>
         and is
         <a href="https://github.com/Kristyidu/Poem-AI" target="_blank">
           open-sourced on GitHub</a
         >
         and is
-        <a href="https://kristyidupoem-ai.netlify.app/" target="_blank"
+        <a href="https://kristyidupoem-ai.netlify.app/?" target="_blank"
           >hosted on Netlify</a
         >.
       </footer>
