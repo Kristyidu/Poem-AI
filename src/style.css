@@ -45,7 +45,7 @@ form {
 
 .instructions {
     padding: 16px;
-    border: 1px solid rgba(66, 45, 33, 0.5);
+    border: 1px solid rgba(39, 33, 66, 0.5);
     width: 80%;
     font-size: 16px;
     border-radius: 50px;
@@ -70,7 +70,7 @@ form {
     padding: 20px;
     line-height: 2;
     border-left: 3px solid #885df1;
-    box-shadow: 0px 4px 30px 0px rgba(45, 11, 199, 0.03);
+    box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
 }
 
 .hidden {
@@ -91,3 +91,14 @@ footer {
     animation: blink-animation 1s steps(5, start) infinite;
 }
 
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
